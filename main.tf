@@ -153,4 +153,4 @@ resource "aws_security_group" "allow_all" {
 # echo "+++++++++++++++++++++++++++++++++++++++++++++++++++++"
 # echo "Running Terraform Now...!!"
 # terraform init
-# terraform apply --var-file terraform.tfvars -var="aws_access_key=AAAAAAAAAAAAAAAAAA" -var="aws_secret_key=BBBBBBBBBBBBB" --auto-approve
+# terraform apply --var-file dev.tfvars -var="aws_access_key=AAAAAAAAAAAAAAAAAA" -var="aws_secret_key=BBBBBBBBBBBBB" --auto-approve
